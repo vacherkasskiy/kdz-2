@@ -79,6 +79,18 @@ build CMakeFiles/kdz_2.dir/textGenerator.cpp.obj: CXX_COMPILER__kdz_2_Debug C$:/
   OBJECT_DIR = CMakeFiles\kdz_2.dir
   OBJECT_FILE_DIR = CMakeFiles\kdz_2.dir
 
+build CMakeFiles/kdz_2.dir/starts.cpp.obj: CXX_COMPILER__kdz_2_Debug C$:/Users/cherk/CLionProjects/kdz-2/starts.cpp || cmake_object_order_depends_target_kdz_2
+  DEP_FILE = CMakeFiles\kdz_2.dir\starts.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\kdz_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\kdz_2.dir
+
+build CMakeFiles/kdz_2.dir/csvWriter.cpp.obj: CXX_COMPILER__kdz_2_Debug C$:/Users/cherk/CLionProjects/kdz-2/cmake-build-debug/csvWriter.cpp || cmake_object_order_depends_target_kdz_2
+  DEP_FILE = CMakeFiles\kdz_2.dir\csvWriter.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\kdz_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\kdz_2.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target kdz_2
@@ -87,7 +99,7 @@ build CMakeFiles/kdz_2.dir/textGenerator.cpp.obj: CXX_COMPILER__kdz_2_Debug C$:/
 #############################################
 # Link the executable kdz_2.exe
 
-build kdz_2.exe: CXX_EXECUTABLE_LINKER__kdz_2_Debug CMakeFiles/kdz_2.dir/main.cpp.obj CMakeFiles/kdz_2.dir/algorithims.cpp.obj CMakeFiles/kdz_2.dir/textGenerator.cpp.obj
+build kdz_2.exe: CXX_EXECUTABLE_LINKER__kdz_2_Debug CMakeFiles/kdz_2.dir/main.cpp.obj CMakeFiles/kdz_2.dir/algorithims.cpp.obj CMakeFiles/kdz_2.dir/textGenerator.cpp.obj CMakeFiles/kdz_2.dir/starts.cpp.obj CMakeFiles/kdz_2.dir/csvWriter.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\kdz_2.dir
