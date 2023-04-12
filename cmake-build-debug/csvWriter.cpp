@@ -5,7 +5,8 @@
 #include <fstream>
 #include "csvWriter.h"
 
-void csvWrite(std::ofstream &file, std::pair<std::vector<short>, std::vector<long long>> *statistics, const std::string &name) {
+void csvWrite(std::ofstream &file, std::pair<std::vector<short>, std::vector<long long>> *statistics,
+              const std::string &name) {
     // id, pattern length, time
 
     file << name << "\n";

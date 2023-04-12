@@ -8,8 +8,11 @@
 #include <iostream>
 
 void startDna_10000(std::ofstream &file);
+
 void startBinary_10000(std::ofstream &file);
+
 void startDna_100000(std::ofstream &file);
+
 void startBinary_100000(std::ofstream &file);
 
 #endif //KDZ_2_STARTS_H
