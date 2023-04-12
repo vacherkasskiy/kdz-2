@@ -5,9 +5,11 @@
 #ifndef KDZ_2_STARTS_H
 #define KDZ_2_STARTS_H
 
-void startDna_10000();
-void startBinary_10000();
-void startDna_100000();
-void startBinary_100000();
+#include <iostream>
+
+void startDna_10000(std::ofstream &file);
+void startBinary_10000(std::ofstream &file);
+void startDna_100000(std::ofstream &file);
+void startBinary_100000(std::ofstream &file);
 
 #endif //KDZ_2_STARTS_H

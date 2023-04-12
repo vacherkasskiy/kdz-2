@@ -8,6 +8,6 @@
 #include <iostream>
 #include <vector>
 
-void csvWrite(std::pair<std::vector<short>, std::vector<long long>> *statistics, const std::string &name);
+void csvWrite(std::ofstream &file, std::pair<std::vector<short>, std::vector<long long>> *statistics, const std::string &name);
 
 #endif //KDZ_2_CSVWRITER_H
