@@ -3,4 +3,4 @@ project(kdz_2)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(kdz_2 main.cpp)
+add_executable(kdz_2 main.cpp algorithims.cpp algorithims.h textGenerator.cpp textGenerator.h)
