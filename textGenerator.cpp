@@ -3,7 +3,6 @@
 //
 
 #include "textGenerator.h"
-#include <iostream>
 #include <cstdlib>
 #include <string>
 #include <random>

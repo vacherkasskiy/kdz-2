@@ -1,9 +1,5 @@
 #include <iostream>
-#include <chrono>
-#include <vector>
 #include <fstream>
-#include "algorithims.h"
-#include "textGenerator.h"
 #include "starts.h"
 
 
